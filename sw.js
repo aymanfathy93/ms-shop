@@ -1,5 +1,5 @@
 // Service worker — يخلّي التطبيق يفتح بسرعة ويتثبّت على الموبايل
-const CACHE = 'ms-app-v1';
+const CACHE = 'ms-app-v2';
 const SHELL = ['./', './index.html', './logo.js', './config.js', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 const CDN = /^https:\/\/(cdnjs\.cloudflare\.com|unpkg\.com|fonts\.googleapis\.com|fonts\.gstatic\.com)\//;
 
